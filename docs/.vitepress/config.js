@@ -90,6 +90,16 @@ const customElements = [
 ]
 
 export default defineConfig({
+  themeConfig: {
+    sidebar: [
+      {
+        text: 'Sidebar',
+        items: [
+          { text: 'folder1', link: '/folder1/index' },
+        ]
+      }
+    ]
+  },
   markdown: {
     config: (md) => {
       md.use(markdownItKatex)

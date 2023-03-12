@@ -1,0 +1,3 @@
+surge
+npm run build
+surge docs/.vitepress/dist/ tasteless-property.surge.sh
