@@ -1,3 +1,5 @@
 surge
 npm run build
 surge docs/.vitepress/dist/ tasteless-property.surge.sh
+
+DONT CHANGE .MD FILES! They are hard links. Change them in the 'markdown' folder in an other repo.

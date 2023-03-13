@@ -90,12 +90,20 @@ const customElements = [
 ]
 
 export default defineConfig({
+  title: 'tt5',
+  head: [
+    ['link',
+    { 
+      rel: 'stylesheet',
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'
+    }],
+  ],
   themeConfig: {
     sidebar: [
       {
-        text: 'Sidebar',
+        text: 'progr',
         items: [
-          { text: 'folder1', link: '/folder1/index' },
+          { text: 'js', link: '/progr/js' },
         ]
       }
     ]
