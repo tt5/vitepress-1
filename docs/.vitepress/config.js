@@ -99,6 +99,10 @@ export default defineConfig({
     }],
   ],
   themeConfig: {
+    lastUpdated: true,
+    search: {
+      provider: 'local'
+    },
     sidebar: [
       {
         text: 'progr',
@@ -135,7 +139,7 @@ export default defineConfig({
           { text: 'math-presentationth', link: '/math/math-presentationth' },
         ]
       },
-    ]
+    ],
   },
   markdown: {
     config: (md) => {
